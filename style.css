@@ -1,0 +1,92 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.descricao{
+    width: 300px;
+    color: #ddd;
+}
+h2{
+    margin-bottom: 5px;
+}
+.duracao{
+    width: 300px;
+    margin-top: 25px;
+}
+.barra{
+    width: 300px;
+    height: 6px;
+    border: 1px solid #00ff71;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+progress{
+    width: 10%;
+    height: 100%;
+}
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color: #00ff71;
+    border-radius: 50%;
+    margin-left: -2px;
+}
+.tempo{
+    width: 300px;
+    color: #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+i{
+    color: wheat;
+}
+.player{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+.botao-play, botao-pause{
+    font-size: 50px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.setas{
+    font-size: 40px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.botao-pause{
+    display: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+.botao-play:hover, .botao-pause:hover, .setas:hover{
+    color: #00ff71;
+    transition: all 1s;
+}
