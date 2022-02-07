@@ -29,6 +29,7 @@ document.querySelector('.anterior').addEventListener('click', ()=>{
     if(indexMusica < 0)
         indexMusica = 3;
     reiderizarMusica(indexMusica)
+    tocarMusica()
 });
 
 document.querySelector('.proxima').addEventListener('click', ()=>{
@@ -36,6 +37,7 @@ document.querySelector('.proxima').addEventListener('click', ()=>{
     if(indexMusica > 3)
         indexMusica = 0;
     reiderizarMusica(indexMusica)
+    tocarMusica()
 });
 
 //Funções
